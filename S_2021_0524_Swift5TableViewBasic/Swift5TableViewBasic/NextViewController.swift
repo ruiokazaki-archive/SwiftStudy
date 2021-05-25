@@ -10,12 +10,17 @@ import UIKit
 class NextViewController: UIViewController {
     
     @IBOutlet weak var todoLabel: UILabel!
-    var toDoString = String()
     
+    var toDoString = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         todoLabel.text = toDoString
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.isNavigationBarHidden = false
     }
     
 

@@ -25,7 +25,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="50" id="45z-SJ-D13">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="50" id="45z-SJ-D13">
                                         <rect key="frame" x="0.0" y="24.5" width="414" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="45z-SJ-D13" id="456-jA-Hes">
@@ -52,7 +52,7 @@
                     <connections>
                         <outlet property="tableView" destination="pwq-S2-ene" id="LFJ-4Q-bet"/>
                         <outlet property="textField" destination="1X1-o5-CUb" id="vLo-Vd-pYF"/>
-                        <segue destination="gnv-tf-mzZ" kind="show" identifier="Next" id="dxY-Kt-wCT"/>
+                        <segue destination="gnv-tf-mzZ" kind="show" identifier="" id="dxY-Kt-wCT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -62,7 +62,7 @@
         <!--Next View Controller-->
         <scene sceneID="oge-bi-zic">
             <objects>
-                <viewController id="gnv-tf-mzZ" customClass="NextViewController" customModule="Swift5TableViewBasic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="next" id="gnv-tf-mzZ" customClass="NextViewController" customModule="Swift5TableViewBasic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WoQ-eO-c2a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
