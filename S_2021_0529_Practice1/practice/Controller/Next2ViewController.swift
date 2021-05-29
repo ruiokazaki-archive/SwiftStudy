@@ -15,6 +15,7 @@ class Next2ViewController: UIViewController {
 
     @IBOutlet weak var countLabel: UILabel!
     
+    let calc = Calc()
     var count = Int()
     var delegate: CountReturn?
     
@@ -26,11 +27,7 @@ class Next2ViewController: UIViewController {
     
     @IBAction func plusAndMinus(_ sender: Any) {
         let senderTag = sender as! UIButton
-        if senderTag.tag == 1 {
-            count += 1
-        } else if senderTag.tag == 2 {
-            count -= 1
-        }
+        count += calc.PlusAndMinus(SenderTag: senderTag)
         countLabel.text = String(count)
     }
     

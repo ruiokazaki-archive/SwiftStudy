@@ -11,6 +11,7 @@ class ViewController: UIViewController, CountReturn {
     
 
     @IBOutlet weak var countLabel: UILabel!
+    let calc = Calc()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,14 +22,7 @@ class ViewController: UIViewController, CountReturn {
     
     @IBAction func plusAndMinus(_ sender: Any) {
         let senderTag = sender as! UIButton
-        if senderTag.tag == 1 {
-            count += 1
-//            print(count)
-        } else if senderTag.tag == 2 {
-            count -= 1
-        } else {
-            print("ERR - ViewContller 26")
-        }
+        count += calc.PlusAndMinus(SenderTag: senderTag)
         countLabel.text = String(count)
 //        print(countLabel.text)
     }
