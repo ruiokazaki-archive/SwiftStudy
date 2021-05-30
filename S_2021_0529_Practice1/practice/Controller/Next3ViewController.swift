@@ -7,8 +7,8 @@
 
 import UIKit
 
-class Next3ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
-    
+class Next3ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource
+{
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var textfield: UITextField!
@@ -57,5 +57,19 @@ class Next3ViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tableView.reloadData()
     }
     
-
+//    @IBAction func next4(_ sender: Any) {
+//        self.performSegue(withIdentifier: "next3", sender: nil)
+//    }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "next3" {
+//            let Next4VC = segue.destination as! Next4ViewController
+//            Next4VC.addTodoDelegate = self
+//        }
+//    }
+    
+//    func addTodo(todo: String) {
+//        todoArray.append(todo)
+//    }
+    
 }

@@ -35,6 +35,7 @@ class ViewController: UIViewController, CountReturn {
     @IBAction func next2(_ sender: Any) {
         self.performSegue(withIdentifier: "next2", sender: nil)
     }
+    
     func returnCount(count: Int) {
         self.count = count
         countLabel.text = String(self.count)
@@ -50,5 +51,6 @@ class ViewController: UIViewController, CountReturn {
             Next2VC.count = count
         }
     }
+    
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5333622663A84A0004D30A /* Next4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5333612663A84A0004D30A /* Next4ViewController.swift */; };
 		2EB45C7F26628263000F4EC6 /* Next1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB45C7E26628263000F4EC6 /* Next1ViewController.swift */; };
 		2EB45C812662856A000F4EC6 /* Next2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB45C802662856A000F4EC6 /* Next2ViewController.swift */; };
 		2EB45C8626628DDA000F4EC6 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB45C8526628DDA000F4EC6 /* Calc.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E5333612663A84A0004D30A /* Next4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Next4ViewController.swift; sourceTree = "<group>"; };
 		2EB45C7E26628263000F4EC6 /* Next1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Next1ViewController.swift; sourceTree = "<group>"; };
 		2EB45C802662856A000F4EC6 /* Next2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Next2ViewController.swift; sourceTree = "<group>"; };
 		2EB45C8526628DDA000F4EC6 /* Calc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				2EB45C7E26628263000F4EC6 /* Next1ViewController.swift */,
 				2EB45C802662856A000F4EC6 /* Next2ViewController.swift */,
 				2EB45C8726629245000F4EC6 /* Next3ViewController.swift */,
+				2E5333612663A84A0004D30A /* Next4ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				2EB45C7F26628263000F4EC6 /* Next1ViewController.swift in Sources */,
 				2EB45C8626628DDA000F4EC6 /* Calc.swift in Sources */,
 				2EB45C812662856A000F4EC6 /* Next2ViewController.swift in Sources */,
+				2E5333622663A84A0004D30A /* Next4ViewController.swift in Sources */,
 				2EB45C8826629245000F4EC6 /* Next3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
